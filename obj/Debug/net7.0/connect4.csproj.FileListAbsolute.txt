@@ -1,0 +1,15 @@
+D:\connect4\bin\Debug\net7.0\connect4.exe
+D:\connect4\bin\Debug\net7.0\connect4.deps.json
+D:\connect4\bin\Debug\net7.0\connect4.runtimeconfig.json
+D:\connect4\bin\Debug\net7.0\connect4.dll
+D:\connect4\bin\Debug\net7.0\connect4.pdb
+D:\connect4\obj\Debug\net7.0\connect4.csproj.AssemblyReference.cache
+D:\connect4\obj\Debug\net7.0\connect4.GeneratedMSBuildEditorConfig.editorconfig
+D:\connect4\obj\Debug\net7.0\connect4.AssemblyInfoInputs.cache
+D:\connect4\obj\Debug\net7.0\connect4.AssemblyInfo.cs
+D:\connect4\obj\Debug\net7.0\connect4.csproj.CoreCompileInputs.cache
+D:\connect4\obj\Debug\net7.0\connect4.dll
+D:\connect4\obj\Debug\net7.0\refint\connect4.dll
+D:\connect4\obj\Debug\net7.0\connect4.pdb
+D:\connect4\obj\Debug\net7.0\connect4.genruntimeconfig.cache
+D:\connect4\obj\Debug\net7.0\ref\connect4.dll
