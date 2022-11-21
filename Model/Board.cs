@@ -5,7 +5,7 @@ namespace connect4 // Note: actual namespace depends on the project name.
 {
     public class Board
     {
-        public String[] Letters = { "A", "B", "C", "D", "E", "F", "G" };
+        private String[] _letters = { "A", "B", "C", "D", "E", "F", "G" };
         private String[][] gameBoard = {
             new String[] {"","","","","","",""},
             new String[] {"","","","","","",""},
@@ -15,6 +15,10 @@ namespace connect4 // Note: actual namespace depends on the project name.
             new String[] {"","","","","","",""}
         };
 
+        public String[] Letters
+        {
+            get { return _letters; }
+        }
         private static int columns = 7;
         private static int rows = 6;
 
@@ -60,11 +64,11 @@ namespace connect4 // Note: actual namespace depends on the project name.
                     // Console.Write(gameBoard[x + 1][y]);
                     // Console.Write(gameBoard[x + 2][y]);
                     //Console.WriteLine(gameBoard[x + 3][y]);
-                    
+
                     if (gameBoard[x][y] == chip && gameBoard[x + 1][y] == chip && gameBoard[x + 2][y] == chip
                     && gameBoard[x + 3][y] == chip)
                     {
-                        Console.Write("\n" + chip + " player is the winner");
+                        Console.WriteLine("\n" + chip + " player is the winner");
                         winner = true;
                     }
                 }
@@ -77,7 +81,7 @@ namespace connect4 // Note: actual namespace depends on the project name.
                     if (gameBoard[x][y] == chip && gameBoard[x][y + 1] == chip && gameBoard[x][y + 2] == chip
                     && gameBoard[x][y + 3] == chip)
                     {
-                        Console.Write("\n" + chip + " player is the winner");
+                        Console.WriteLine("\n" + chip + " player is the winner");
                         winner = true;
                     }
                 }
@@ -90,7 +94,7 @@ namespace connect4 // Note: actual namespace depends on the project name.
                     if (gameBoard[x][y] == chip && gameBoard[x + 1][y - 1] == chip && gameBoard[x + 2][y - 2] == chip
                    && gameBoard[x + 3][y - 3] == chip)
                     {
-                        Console.Write("\n" + chip + " player is the winner");
+                        Console.WriteLine("\n" + chip + " player is the winner");
                         winner = true;
                     }
                 }
@@ -103,7 +107,7 @@ namespace connect4 // Note: actual namespace depends on the project name.
                     if (gameBoard[x][y] == chip && gameBoard[x + 1][y + 1] == chip && gameBoard[x + 2][y + 2] == chip
                    && gameBoard[x + 3][y + 3] == chip)
                     {
-                        Console.Write("\n" + chip + " player is the winner");
+                        Console.WriteLine("\n" + chip + " player is the winner");
                         winner = true;
                     }
                 }
